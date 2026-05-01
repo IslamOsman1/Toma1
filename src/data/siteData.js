@@ -1,6 +1,9 @@
 import tomaLogo from "../assets/toma-logo.png";
 import tony from "../assets/tony.png";
-
+import eg from "../assets/eg.jpg";
+import uae from "../assets/uae.jpg";
+import mo from "../assets/mo.jpg";
+import ch from "../assets/ch.jpg";
 import {
   Award,
   BookOpenText,
@@ -156,7 +159,7 @@ export function getCountries(isAr) {
         ? "المكتب الرئيسي في القاهرة، متخصص في الشركات، النزاعات التجارية، الاستثمار، وصياغة العقود."
         : "Main office in Cairo, focused on corporate matters, commercial disputes, investment, and contracts.",
       image:
-        "https://images.unsplash.com/photo-1572252009286-268acec5ca0a?auto=format&fit=crop&w=1200&q=80",
+      eg,
     },
     {
       code: "AE",
@@ -165,8 +168,7 @@ export function getCountries(isAr) {
         ? "دعم قانوني واستشاري للشركات والمستثمرين في دبي وأبوظبي وفهم متطلبات الأعمال العابرة للحدود."
         : "Legal and advisory support for companies and investors in Dubai and Abu Dhabi.",
       image:
-        "https://images.unsplash.com/photo-1512453979798-5ea266f8880c?auto=format&fit=crop&w=1200&q=80",
-    },
+        uae,    },
     {
       code: "MA",
       title: isAr ? "المغرب — شريك قانوني" : "Morocco — Of-Counsel Partner",
@@ -174,8 +176,7 @@ export function getCountries(isAr) {
         ? "رؤية قانونية إقليمية تشمل شمال أفريقيا والنزاعات التجارية والتحكيم وتطبيق القانون عبر الحدود."
         : "Regional legal perspective covering North Africa, disputes, arbitration, and cross-border matters.",
       image:
-        "https://images.unsplash.com/photo-1539020140153-e8c237112e53?auto=format&fit=crop&w=1200&q=80",
-    },
+        mo,    },
     {
       code: "CN",
       title: isAr ? "الصين — تعاون استراتيجي" : "China — Strategic Cooperation",
@@ -183,7 +184,7 @@ export function getCountries(isAr) {
         ? "مساندة للشركات الراغبة في التعاون التجاري والاستثماري بين الصين ومصر ومنطقة الشرق الأوسط."
         : "Assistance for companies seeking commercial and investment cooperation between China, Egypt, and the Middle East.",
       image:
-        "https://images.unsplash.com/photo-1508804185872-d7badad00f7d?auto=format&fit=crop&w=1200&q=80",
+        ch,
     },
   ];
 }
